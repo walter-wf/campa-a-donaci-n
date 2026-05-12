@@ -33,13 +33,14 @@
             padding: 2rem;
         }
 
-        .hero-img {
-            width: 100%;
-            height: 400px;
-            object-fit: cover;
-            border-radius: 15px;
-            margin-bottom: 2rem;
-        }
+       .hero-img {
+    width: 100%;
+    max-height: 800px; /* Le damos un poco más de aire */
+    object-fit: contain; /* Esto hace que la foto se vea COMPLETA sin recortarse */
+  /*   background-color: #000; /* Opcional: fondo negro por si la foto no llena todo el ancho */ */
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
 
         .goal-box {
             background: white;
@@ -107,46 +108,53 @@
 <body>
 
 <header>
-    <h1>Ayudemos a [Nombre de la Persona]</h1>
-    <p>Unidos por su recuperación y bienestar</p>
+    <h1>Ayudemos a Diego Espinoza Espinoza</h1>
+    <p>En su Lucha contra la Leucemia Aguda</p>
 </header>
 
 <div class="container">
-    <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=800&q=80" alt="Apoyo médico" class="hero-img">
+    <img src="Diego2.jpeg" alt="Apoyo médico" class="hero-img">
 
-    <div class="goal-box">
+   <!--  <div class="goal-box">
         <h3>Meta de Recaudación: [Monto Total]</h3>
         <p>Tu aporte, por pequeño que sea, nos acerca un paso más a cubrir los gastos de [tratamiento/cirugía/medicamentos].</p>
-    </div>
+    </div> -->
 
     <section class="description">
         <h2>Nuestra Historia</h2>
-        <p>Hola a todos. Estamos organizando esta colecta para apoyar a <strong>[Nombre]</strong>, quien actualmente se encuentra atravesando [breve descripción de la situación de salud].</p>
+        <p>Hola a todos. Con el corazón en la mano, hoy pedimos ayuda para nuestro querido <strong>Diego Espinoza Espinoza</strong>, quien actualmente se encuentra atravesando la leucemia aguda.</p>
         
-        <p>[Nombre] es una persona [mencionar alguna cualidad, ej: luchadora, alegre, gran profesional] y hoy necesita de nuestra solidaridad para costear los gastos médicos que esta situación conlleva.</p>
+        <p>Diego es jubilado, tiene 73 años y aunque ha enfrentado esta noticia con valentía, la situación médica es urgente y muy difícil. El hospital donde está siendo atendido no cuenta con las medicinas ni con el tratamiento adecuado que necesita para enfrentar esta enfermedad. Por eso, su familia se ve en la necesidad de acudir a la solidaridad de amigos, conocidos y personas de buen corazón.
+Quienes conocen a Diego saben la clase de ser humano que es: una persona noble, querida, generosa y llena de cariño. A lo largo de su vida ha dejado una huella enorme en todos los que han tenido la suerte de compartir con él. Hoy, él necesita de nosotros.</p>
         
         <p>Todo lo recaudado será destinado íntegramente a:</p>
         <ul>
-            <li>[Gasto 1: ej. Internación clínica]</li>
-            <li>[Gasto 2: ej. Insumos post-operatorios]</li>
-            <li>[Gasto 3: ej. Rehabilitación]</li>
+            <li>Medicinas especializadas.</li>
+            <li>Tratamientos médicos.</li>
+            <li>Exámenes y controles.</li>
+            <li>ETraslados y cuidados necesarios durante este proceso.</li>
+            <li>ECualquier gasto urgente relacionado con su atención médica.</li>
         </ul>
+
+        <p>Cualquier aporte, por pequeño que parezca, representa una gran ayuda para Diego y su familia. También nos ayudas muchísimo compartiendo esta campaña con otras personas.
+De parte de toda su familia, gracias por acompañarnos en este momento tan duro. Su apoyo, sus oraciones y su solidaridad significan más de lo que podemos expresar.</p>
     </section>
 
     <div class="gallery">
-        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=400&q=80" alt="Cuidado 1">
-        <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=400&q=80" alt="Cuidado 2">
-        <img src="https://images.unsplash.com/photo-1505751172107-573225a46519?auto=format&fit=crop&w=400&q=80" alt="Cuidado 3">
+        <img src="Diego1.jpeg" alt="Cuidado 1">
+        <img src="Diego2.jpeg" alt="Cuidado 2">
+     <!--    <img src="https://images.unsplash.com/photo-1505751172107-573225a46519?auto=format&fit=crop&w=400&q=80" alt="Cuidado 3"> -->
     </div>
 
-    <a href="[TU_LINK_DE_PAGO_O_WHATSAPP]" class="cta-button">DONAR AHORA</a>
-
-    <div class="payment-methods">
-        <h3>Otras formas de ayudar</h3>
-        <p><strong>CBU / Alias:</strong> [Dato de la cuenta bancaria]</p>
-        <p><strong>Titular:</strong> [Nombre del titular]</p>
-        <p>Si no puedes donar, nos ayudas muchísimo compartiendo este link con tus contactos.</p>
-    </div>
+  <!--   <a href="[TU_LINK_DE_PAGO_O_WHATSAPP]" class="cta-button">DONAR AHORA</a>
+ -->
+   <div class="payment-methods" style="font-size: 1.50rem; font-weight: bold;">
+    <h3>Colabora Aqui</h3>
+    <p>Banco Guayaquil Cuenta: 0039031731]</p>
+    <p>C.I. 090-788-1676</p>
+    <p>Sandra Jaqueline Orellana Teran</p>
+    <p style="font-weight: normal; font-size: 0.9rem;">
+Ayudemos a Diego a seguir luchando.    </p>
 </div>
 
 <footer>
